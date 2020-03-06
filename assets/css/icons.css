@@ -1,0 +1,51 @@
+.far.fa-handshake {
+  display: block;
+  font-size: 40px;
+}
+
+.fa.fa-user {
+  display: block;
+  font-size: 40px;
+}
+
+.fas.fa-crown {
+  display: block;
+  font-size: 40px;
+}
+
+.fa.fa-facebook-square {
+  font-size: 40px;
+  color: #fff;
+}
+
+.fa.fa-facebook-square:hover {
+  color: #81cde3;
+}
+
+.fa.fa-instagram {
+  font-size: 40px;
+  color: #fff;
+}
+
+.fa.fa-instagram:hover {
+  color: #81cde3;
+}
+
+.fa.fa-pinterest {
+  font-size: 40px;
+  color: #fff;
+}
+
+.fa.fa-pinterest:hover {
+  color: #81cde3;
+}
+
+.fa.fa-twitter-square {
+  font-size: 40px;
+  color: #fff;
+}
+
+.fa.fa-twitter-square:hover {
+  color: #81cde3;
+}
+

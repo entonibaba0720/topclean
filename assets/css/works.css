@@ -1,0 +1,15 @@
+#works {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#works img {
+  max-width: 150px;
+  height: 150px;
+}
+
+.carousel-testimonial-img {
+  display: flex;
+  justify-content: center;
+}
+

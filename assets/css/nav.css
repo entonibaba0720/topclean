@@ -1,0 +1,50 @@
+.navbar > .container, .navbar > .container-fluid {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  border-bottom: 2px solid #81cde3;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+  #navcol-1 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navbar-light.navbar-expand-md {
+    background-color: rgba(244,242,243,0.40);
+    border-top: 3px solid #81cde3;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color: rgba(244,242,243,1);
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+}
+
+.scrollToTop {
+  font-size: 40px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  color: #48aecc;
+  /*display: none;*/
+}
+
+.navbar-collapse .nav-link {
+  display: inline-block;
+}
+

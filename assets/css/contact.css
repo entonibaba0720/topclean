@@ -1,0 +1,21 @@
+#contact {
+  color: rgb(241,241,241);
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+.copyright {
+  margin-bottom: 0;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+

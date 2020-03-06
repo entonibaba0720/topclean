@@ -1,0 +1,110 @@
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 20px;
+  background: rgba(72,174,204,0.74);
+  border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+  .cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    background: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(72,174,204,0.74);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+}
+
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: .5rem;
+}
+
+@media (min-width: 992px) {
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    vertical-align: top;
+    letter-spacing: .5rem;
+  }
+}
+
+.cta svg {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: rgba(72,174,204,0.74);
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+
+#services a {
+  color: #fff;
+}
+
+svg {
+  margin-bottom: 10px;
+}
+
+.cta:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-indicators {
+  filter: invert(100%);
+  position: absolute;
+  top: 100%;
+  margin-top: 20px;
+}
+
